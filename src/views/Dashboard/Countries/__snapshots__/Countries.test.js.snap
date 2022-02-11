@@ -1,0 +1,1249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries handles filters and pagination properly 1`] = `
+<div
+  class="countries-container"
+>
+  <div
+    class="header"
+  >
+    <div
+      class="count"
+    >
+      Total Countries : 
+      11
+    </div>
+    <div
+      class="filter"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+        >
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="outlined-select-currency"
+            class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+            id="outlined-select-currency"
+            role="button"
+            tabindex="0"
+          >
+            Total Deaths
+          </div>
+          <input
+            aria-hidden="true"
+            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+            placeholder="Search By"
+            tabindex="-1"
+            value="TotalDeaths"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+            data-testid="ArrowDropDownIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-nnbavb"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiFilledInput-root MuiFilledInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-cio0x1-MuiInputBase-root-MuiFilledInput-root"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiFilledInput-input MuiInputBase-input MuiInputBase-inputTypeSearch css-1lfthva-MuiInputBase-input-MuiFilledInput-input"
+            id="standard-search"
+            placeholder="Search"
+            type="search"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Country
+          <span
+            class="material-icons-outlined "
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          New Confirmed
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          Total Confirmed
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          New Deaths
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          Total Deaths
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          New Recovered
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          Total Recovered
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Afghanistan
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          1,67,739
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          7,454
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Albania
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          2,65,716
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          3,393
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Algeria
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          2,59,088
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          6,667
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Andorra
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          36,808
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          147
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Angola
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          98,424
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          1,896
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Antigua and Barbuda
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          6,853
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          131
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Argentina
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          86,48,075
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          1,23,227
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Armenia
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          3,94,074
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          8,102
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Australia
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          31,510
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          28,11,390
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          71
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          4,373
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Austria
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          21,11,314
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          14,271
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <nav
+    aria-label="pagination navigation"
+    class="MuiPagination-root MuiPagination-text pagination css-1oj2twp-MuiPagination-root"
+  >
+    <ul
+      class="MuiPagination-ul css-wjh20t-MuiPagination-ul"
+    >
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-disabled MuiPaginationItem-previousNext css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+            data-testid="NavigateBeforeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="true"
+          aria-label="page 1"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-selected MuiPaginationItem-page css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          tabindex="0"
+          type="button"
+        >
+          1
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to page 2"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary MuiPaginationItem-page css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          tabindex="0"
+          type="button"
+        >
+          2
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary MuiPaginationItem-previousNext css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+            data-testid="NavigateNextIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Countries renders properly 1`] = `
+<div
+  class="countries-container"
+>
+  <div
+    class="header"
+  >
+    <div
+      class="count"
+    >
+      Total Countries : 
+      11
+    </div>
+    <div
+      class="filter"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+        >
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-labelledby="outlined-select-currency"
+            class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+            id="outlined-select-currency"
+            role="button"
+            tabindex="0"
+          >
+            Country
+          </div>
+          <input
+            aria-hidden="true"
+            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+            placeholder="Search By"
+            tabindex="-1"
+            value="Country"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+            data-testid="ArrowDropDownIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-nnbavb"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiFilledInput-root MuiFilledInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-cio0x1-MuiInputBase-root-MuiFilledInput-root"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiFilledInput-input MuiInputBase-input MuiInputBase-inputTypeSearch css-1lfthva-MuiInputBase-input-MuiFilledInput-input"
+            id="standard-search"
+            placeholder="Search"
+            type="search"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <table
+    class="table"
+  >
+    <thead>
+      <tr>
+        <th>
+          Country
+          <span
+            class="material-icons-outlined "
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          New Confirmed
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          Total Confirmed
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          New Deaths
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          Total Deaths
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          New Recovered
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+        <th>
+          Total Recovered
+          <span
+            class="material-icons-outlined unselected"
+          >
+            expand_less
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Afghanistan
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          1,67,739
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          7,454
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Albania
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          2,65,716
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          3,393
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Algeria
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          2,59,088
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          6,667
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Andorra
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          36,808
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          147
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Angola
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          98,424
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          1,896
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Antigua and Barbuda
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          6,853
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          131
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Argentina
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          86,48,075
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          1,23,227
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Armenia
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          3,94,074
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          8,102
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Australia
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          31,510
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          28,11,390
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          71
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          4,373
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+      <tr
+        class="country-row"
+      >
+        <td
+          data-th="Country"
+        >
+          Austria
+        </td>
+        <td
+          data-th="New Confirmed"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Confirmed"
+        >
+          21,11,314
+        </td>
+        <td
+          data-th="New Deaths"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Deaths"
+        >
+          14,271
+        </td>
+        <td
+          data-th="New Recovered"
+        >
+          0
+        </td>
+        <td
+          data-th="Total Recovered"
+        >
+          0
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <nav
+    aria-label="pagination navigation"
+    class="MuiPagination-root MuiPagination-text pagination css-1oj2twp-MuiPagination-root"
+  >
+    <ul
+      class="MuiPagination-ul css-wjh20t-MuiPagination-ul"
+    >
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-disabled MuiPaginationItem-previousNext css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+            data-testid="NavigateBeforeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="true"
+          aria-label="page 1"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-selected MuiPaginationItem-page css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          tabindex="0"
+          type="button"
+        >
+          1
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to page 2"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary MuiPaginationItem-page css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          tabindex="0"
+          type="button"
+        >
+          2
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary MuiPaginationItem-previousNext css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon"
+            data-testid="NavigateNextIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

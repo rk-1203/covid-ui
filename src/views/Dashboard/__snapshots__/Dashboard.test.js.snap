@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard renders loaded state properly 1`] = `
+<div
+  class="dashboard"
+>
+  <div
+    class="refresh"
+  >
+    <button
+      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      Refresh
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+  <section
+    class="global-summary"
+  >
+    <h1>
+      Global Summary
+    </h1>
+    <div
+      class="summary-items"
+    >
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          New Confirmed Cases
+        </span>
+        19,29,169
+      </div>
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          Total Confirmed Cases
+        </span>
+        40,01,78,665
+      </div>
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          New Deaths
+        </span>
+        9,389
+      </div>
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          Total Deaths
+        </span>
+        57,60,245
+      </div>
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          New Recovered Cases
+        </span>
+        0
+      </div>
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          Total Recovered Cases
+        </span>
+        0
+      </div>
+      <div
+        class="item"
+      >
+        <span
+          class="label"
+        >
+          Last Updated Time
+        </span>
+        09 Feb 2022, 10:19 PM
+      </div>
+    </div>
+  </section>
+  <div
+    class="countries-container"
+  >
+    <div
+      class="header"
+    >
+      <div
+        class="count"
+      >
+        Total Countries : 
+        2
+      </div>
+      <div
+        class="filter"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-labelledby="outlined-select-currency"
+              class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+              id="outlined-select-currency"
+              role="button"
+              tabindex="0"
+            >
+              Country
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+              placeholder="Search By"
+              tabindex="-1"
+              value="Country"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+              data-testid="ArrowDropDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-nnbavb"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiFilledInput-root MuiFilledInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-cio0x1-MuiInputBase-root-MuiFilledInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiFilledInput-input MuiInputBase-input MuiInputBase-inputTypeSearch css-1lfthva-MuiInputBase-input-MuiFilledInput-input"
+              id="standard-search"
+              placeholder="Search"
+              type="search"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Country
+            <span
+              class="material-icons-outlined "
+            >
+              expand_less
+            </span>
+          </th>
+          <th>
+            New Confirmed
+            <span
+              class="material-icons-outlined unselected"
+            >
+              expand_less
+            </span>
+          </th>
+          <th>
+            Total Confirmed
+            <span
+              class="material-icons-outlined unselected"
+            >
+              expand_less
+            </span>
+          </th>
+          <th>
+            New Deaths
+            <span
+              class="material-icons-outlined unselected"
+            >
+              expand_less
+            </span>
+          </th>
+          <th>
+            Total Deaths
+            <span
+              class="material-icons-outlined unselected"
+            >
+              expand_less
+            </span>
+          </th>
+          <th>
+            New Recovered
+            <span
+              class="material-icons-outlined unselected"
+            >
+              expand_less
+            </span>
+          </th>
+          <th>
+            Total Recovered
+            <span
+              class="material-icons-outlined unselected"
+            >
+              expand_less
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="country-row"
+        >
+          <td
+            data-th="Country"
+          >
+            Afghanistan
+          </td>
+          <td
+            data-th="New Confirmed"
+          >
+            0
+          </td>
+          <td
+            data-th="Total Confirmed"
+          >
+            1,67,739
+          </td>
+          <td
+            data-th="New Deaths"
+          >
+            0
+          </td>
+          <td
+            data-th="Total Deaths"
+          >
+            7,454
+          </td>
+          <td
+            data-th="New Recovered"
+          >
+            0
+          </td>
+          <td
+            data-th="Total Recovered"
+          >
+            0
+          </td>
+        </tr>
+        <tr
+          class="country-row"
+        >
+          <td
+            data-th="Country"
+          >
+            Barbados
+          </td>
+          <td
+            data-th="New Confirmed"
+          >
+            0
+          </td>
+          <td
+            data-th="Total Confirmed"
+          >
+            49,372
+          </td>
+          <td
+            data-th="New Deaths"
+          >
+            0
+          </td>
+          <td
+            data-th="Total Deaths"
+          >
+            288
+          </td>
+          <td
+            data-th="New Recovered"
+          >
+            0
+          </td>
+          <td
+            data-th="Total Recovered"
+          >
+            0
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Dashboard renders loading state properly 1`] = `
+<div
+  class="dashboard"
+>
+  <div>
+    <img
+      alt="Loading..."
+      height="200px"
+      src="roundLoader.gif"
+    />
+  </div>
+</div>
+`;

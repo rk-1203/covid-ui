@@ -1,0 +1,81 @@
+.countries-container {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-radius: 10px;
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        @media screen and (max-width: 601px) {
+            flex-wrap: wrap;
+        }
+        .count {
+            @media screen and (max-width: 601px) {
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 0 20px 20px 20px;
+            }
+        }
+    }
+    .table {
+        margin: auto;
+        min-width: 300px;
+        width: 100%;
+        border-collapse: collapse;
+        color: #333;
+        border-radius: 10px;
+        overflow: hidden;
+        thead {
+            tr {
+                border-top: none;
+                background: #428bca;
+                color: #fff;
+                border-color: #bfbfbf;
+                th {
+                    display: none;
+                    text-align: left;
+                    padding: 10px 20px;
+                    &:first-child {
+                        @media screen and (min-width: 600px) {
+                            // padding-right: 0;
+                        }
+                    }
+                    &:last-child {
+                        @media screen and (min-width: 600px) {
+                            // padding-left: 0;
+                        }
+                    }
+                    @media screen and (min-width: 600px) {
+                        display: table-cell;
+                        text-align: center;
+                        padding: 20px 0;
+                        
+                    }
+                }
+                @media screen and (min-width: 600px) {
+                    display: grid;
+                    grid-template-columns: 1.5fr repeat(6, 1fr);
+                }
+                .material-icons-outlined {
+                    vertical-align: middle;
+                    cursor: pointer;
+                    &.unselected {
+                        color: #dddddd5e;
+                    }
+                }
+            }
+        }
+    }
+    .pagination {
+        padding: 20px;
+        .MuiPagination-ul {
+            justify-content: right;
+            @media screen and (max-width: 601px) {
+                justify-content: center;
+            }
+        }
+    }
+    .no-results {
+        padding: 40px;
+    }
+}

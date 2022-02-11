@@ -1,0 +1,35 @@
+.global-summary {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    h1 {
+        text-align: left;
+        padding: 40px 40px 20px 40px;
+        margin: 0;
+        font-size: 32px;
+    }
+    .summary-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+        padding: 20px;
+        @media screen and (min-width: 600px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .item {
+            .label {
+                font-weight: bold;
+                display: block;
+                padding: 10px;
+            }
+            &:last-child {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                @media screen and (min-width: 600px) {
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                }
+            }
+        }
+    }
+}

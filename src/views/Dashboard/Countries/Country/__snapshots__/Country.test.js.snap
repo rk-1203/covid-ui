@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country renders properly 1`] = `
+<table>
+  <tbody>
+    <tr
+      class="country-row"
+    >
+      <td
+        data-th="Country"
+      >
+        Afghanistan
+      </td>
+      <td
+        data-th="New Confirmed"
+      >
+        0
+      </td>
+      <td
+        data-th="Total Confirmed"
+      >
+        1,67,739
+      </td>
+      <td
+        data-th="New Deaths"
+      >
+        0
+      </td>
+      <td
+        data-th="Total Deaths"
+      >
+        7,454
+      </td>
+      <td
+        data-th="New Recovered"
+      >
+        0
+      </td>
+      <td
+        data-th="Total Recovered"
+      >
+        0
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

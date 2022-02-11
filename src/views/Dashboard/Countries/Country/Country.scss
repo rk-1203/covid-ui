@@ -1,0 +1,53 @@
+.country-row {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f9fc;
+    border-color: #bfbfbf;
+    &:nth-child(odd) {
+        background-color: #ebf3f9;
+    }
+    &:first-child {
+        @media screen and (max-width: 601px) {
+            border-top: none;
+        }
+    }
+    @media screen and (min-width: 600px) {
+        display: grid;
+        grid-template-columns: 1.5fr repeat(6, 1fr);
+        &:hover {
+            background-color: #d8e7f3;
+        }
+    }
+    td {
+        display: block;
+        text-align: left;
+        padding: 10px 20px;
+        &:first-child {
+            margin-top: 4px;
+            @media screen and (min-width: 600px) {
+                // padding-left: 0;
+            }
+        }
+        &:last-child {
+            margin-bottom: 4px;
+            @media screen and (min-width: 600px) {
+                // padding-right: 0;
+            }
+        }
+        &:before {
+            content: attr(data-th) ": ";
+            font-weight: bold;
+            width: 160px;
+            display: inline-block;
+            color: #000;
+        }
+        @media screen and (min-width: 600px) {
+            display: table-cell;
+            padding: 20px 0;
+            text-align: center;
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
